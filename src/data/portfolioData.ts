@@ -120,6 +120,7 @@ export interface Quest {
   rewards: string[];
   github: string;
   demo?: string;
+  image: string;
 }
 
 export const quests: Quest[] = [
