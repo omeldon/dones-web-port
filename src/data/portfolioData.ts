@@ -14,8 +14,8 @@ export const profile = {
     "Web Developer",
     "Quality Control Engineer",
   ],
-  level: 24,
-  title: "The Self-Taught Awakened",
+  level: 26,
+  title: "The Self-Taught Web Developer",
   status: "Active Hunter",
   guild: "Freelance / Open to Contract",
   email: "donesrommel2000@gmail.com",
@@ -34,9 +34,9 @@ export const about = {
     "Previously a Quality Control Engineer in electronics manufacturing, analyzing quality data to generate actionable reports for customers and stakeholders using Excel, Tibco Spotfire, and Power BI. Also handled line monitoring, internal audits, and collaborated with production and engineering teams to drive process improvements.",
   ],
   titlesEarned: [
-    { label: "Coffee Consumed", value: "∞ cups" },
-    { label: "Late-Night Sessions", value: "Countless" },
-    { label: "Bugs Cleared", value: "Too many to count" },
+    { label: "SAP C4C Functional Analyst", value: "Current Title" },
+    { label: "Quality Control Engineer", value: "2 Years & 7 Months" },
+    { label: "Compute Engineer", value: "4 Years Studying" },
   ],
 };
 
@@ -66,7 +66,7 @@ export const stats: StatItem[] = [
     code: "AGI",
     name: "Software Technologies",
     value: 80,
-    description: "Git, GitHub, XAMPP, Figma, Canva.",
+    description: "SAP C4C, Git, GitHub, XAMPP, Figma, Canva.",
   },
   {
     code: "VIT",
@@ -77,9 +77,9 @@ export const stats: StatItem[] = [
 ];
 
 export const arsenal = [
+  "SAP C4C",
+  "SAP CRM",
   "React",
-  "TypeScript",
-  "Node.js",
   "Python",
   "Git",
   "GitHub",
@@ -166,7 +166,7 @@ export const quests: Quest[] = [
   {
     id: 7,
     title: "Sales Insight Dashboard",
-    rank: "C",
+    rank: "A",
     brief:
       "An interactive Power BI dashboard designed to visualize and analyze sales performance data, including KPIs, trend analysis, and dynamic filters.",
     rewards: ["Power BI"],
@@ -175,7 +175,7 @@ export const quests: Quest[] = [
   {
     id: 8,
     title: "Call Center Metrics Dashboard",
-    rank: "C",
+    rank: "A",
     brief:
       "A Power BI dashboard showcasing call center metrics such as employee demographics, performance, and retention for data-driven decisions.",
     rewards: ["Power BI"],
