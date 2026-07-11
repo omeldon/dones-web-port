@@ -20,6 +20,7 @@ import work9 from "../images/work-9.png";
 export const profile = {
   name: "Rommel Dones",
   hunterTag: "Player",
+  avatar: avatarImg,
   // Rotating "class" titles, shown as a typewriter in the status window
   classes: [
     "SAP C4C Functional Consultant",
@@ -124,6 +125,7 @@ export interface Quest {
 export const quests: Quest[] = [
   {
     id: 1,
+    image: work1,
     title: "Rock Paper Scissors Duel",
     rank: "E",
     brief:
@@ -133,6 +135,7 @@ export const quests: Quest[] = [
   },
   {
     id: 2,
+    image: work2,
     title: "Resistor Value Divination",
     rank: "E",
     brief:
@@ -142,6 +145,7 @@ export const quests: Quest[] = [
   },
   {
     id: 3,
+    image: work3,
     title: "Bi-Verse",
     rank: "B",
     brief:
@@ -152,6 +156,7 @@ export const quests: Quest[] = [
   },
   {
     id: 4,
+    image: work4,
     title: "Silent Tongue: FSL Interpreter",
     rank: "A",
     brief:
@@ -161,6 +166,7 @@ export const quests: Quest[] = [
   },
   {
     id: 5,
+    image: work5,
     title: "Intruder Alert Wardstone",
     rank: "D",
     brief:
@@ -170,6 +176,7 @@ export const quests: Quest[] = [
   },
   {
     id: 6,
+    image: work6,
     title: "Autonomous Line-Follower",
     rank: "D",
     brief:
@@ -179,8 +186,9 @@ export const quests: Quest[] = [
   },
   {
     id: 7,
+    image: work7,
     title: "Sales Insight Dashboard",
-    rank: "A",
+    rank: "C",
     brief:
       "An interactive Power BI dashboard designed to visualize and analyze sales performance data, including KPIs, trend analysis, and dynamic filters.",
     rewards: ["Power BI"],
@@ -188,8 +196,9 @@ export const quests: Quest[] = [
   },
   {
     id: 8,
+    image: work8,
     title: "Call Center Metrics Dashboard",
-    rank: "A",
+    rank: "C",
     brief:
       "A Power BI dashboard showcasing call center metrics such as employee demographics, performance, and retention for data-driven decisions.",
     rewards: ["Power BI"],
@@ -197,6 +206,7 @@ export const quests: Quest[] = [
   },
   {
     id: 9,
+    image: work9,
     title: "Direcho Trabaho Web Portal",
     rank: "B",
     brief:
