@@ -110,7 +110,7 @@ const Hero: React.FC = () => {
                 boxShadow: "0 0 20px rgba(59,130,246,0.35)",
               }}
             >
-              Extract Status
+              Extract Resume
             </Button>
             <Button
               onClick={() =>

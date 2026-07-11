@@ -16,8 +16,8 @@ export const profile = {
   ],
   level: 26,
   title: "The Self-Taught Web Developer",
-  status: "Active Hunter",
-  guild: "Freelance / Open to Contract",
+  status: "Regular Employee",
+  guild: "Hired at Ascendion",
   email: "donesrommel2000@gmail.com",
   resumeUrl: "/DonesRommel.pdf",
   social: {
@@ -36,7 +36,7 @@ export const about = {
   titlesEarned: [
     { label: "SAP C4C Functional Analyst", value: "Current Title" },
     { label: "Quality Control Engineer", value: "2 Years & 7 Months" },
-    { label: "Compute Engineer", value: "4 Years Studying" },
+    { label: "Computer Engineer", value: "4 Years Studying" },
   ],
 };
 
