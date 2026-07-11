@@ -28,11 +28,11 @@ const About: React.FC = () => {
               Online
             </div>
             <div className="h-24 w-24 mx-auto rounded-md border-2 border-arise/40 bg-void-soft flex items-center justify-center font-display text-3xl font-black text-arise-light mb-6 shadow-arise">
-              {profile.name
-                .split(" ")
-                .map((n) => n[0])
-                .join("")
-                .slice(0, 2)}
+              <img
+                src={profile.avatar}
+                alt={profile.name}
+                className="h-full w-full object-cover"
+              />
             </div>
 
             <div className="divider-glow mb-5" />

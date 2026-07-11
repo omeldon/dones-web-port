@@ -3,6 +3,20 @@
 // "System" — your name, class titles, stats, quests (projects), and contact.
 // ---------------------------------------------------------------------------
 
+// Local image imports — Vite resolves these to a hashed URL at build time.
+// Place your files in src/images/ using these names, or update the paths
+// below to match whatever filenames you actually used.
+import avatarImg from "../images/DONES_ROMMEL_G.png";
+import work1 from "../images/work-1.png";
+import work2 from "../images/work-2.png";
+import work3 from "../images/work-3.png";
+import work4 from "../images/work-4.png";
+import work5 from "../images/work-5.png";
+import work6 from "../images/work-6.png";
+import work7 from "../images/work-7.png";
+import work8 from "../images/work-8.png";
+import work9 from "../images/work-9.png";
+
 export const profile = {
   name: "Rommel Dones",
   hunterTag: "Player",

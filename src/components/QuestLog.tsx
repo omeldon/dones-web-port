@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { Card, CardContent, CardActions, Button, Chip } from "@mui/material";
+import { Card, CardContent, CardActions, CardMedia, Button, Chip } from "@mui/material";
 import { Github, ExternalLink, CheckCircle2 } from "lucide-react";
 import TrackedSection from "./TrackedSection";
 import RankBadge from "./RankBadge";
@@ -71,9 +71,27 @@ const QuestLog: React.FC = () => {
                 },
               }}
             >
+              <div className="relative">
+                <CardMedia
+                  component="img"
+                  image={quest.image}
+                  alt={quest.title}
+                  sx={{
+                    height: 150,
+                    objectFit: "cover",
+                    filter: "saturate(0.9) brightness(0.9)",
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#05070f] via-transparent to-transparent" />
+                <div className="absolute top-2.5 left-2.5">
+                  <RankBadge rank={quest.rank} size="sm" />
+                </div>
+              </div>
               <CardContent>
                 <div className="flex items-center justify-between mb-3">
-                  <RankBadge rank={quest.rank} size="sm" />
+                  <span className="font-mono text-[10px] uppercase tracking-widest text-slate-500">
+                    Quest #{String(quest.id).padStart(2, "0")}
+                  </span>
                   <span className="flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest text-emerald-400">
                     <CheckCircle2 size={13} />
                     Cleared
